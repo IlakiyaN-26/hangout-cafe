@@ -1,7 +1,8 @@
 {
-  "name": "codespaces-react",
+"name": "hangout-cafe",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://IlakiyaN-26.github.io/hangout-cafe",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -20,7 +21,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "test": "vitest",
-      "dev": "vite"
+    "dev": "vite"
   },
   "eslintConfig": {
     "extends": [
@@ -42,9 +43,9 @@
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.1.1",
+    "gh-pages": "^6.3.0",
     "jsdom": "^22.1.0",
     "vite": "^4.5.9",
     "vitest": "^0.34.6"
   }
 }
-
