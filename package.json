@@ -2,7 +2,7 @@
   "name": "hangout-cafe",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://IlakiyaN-26.github.io/hangout-cafe",
+"homepage": "https://ilakiyan-26.github.io/hangout-cafe",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
