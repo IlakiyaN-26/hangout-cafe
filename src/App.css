@@ -1,11 +1,11 @@
-body {
+/* body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
   line-height: 1.6;
   background-color: #fff8f0;
   color: #333;
-}
+} */
 
 h1 {
   background-color: #ff9aa2;
@@ -47,4 +47,212 @@ footer {
   background: #ff9aa2;
   color: white;
   margin-top: 20px;
+}
+
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fff8f0; /* soft cream */
+  color: #333;
+}
+
+header {
+  background-color: #ffcadb; /* light pink header */
+  padding: 1rem;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+/* .cake-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 2rem;
+}
+
+.cake-card {
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  width: 200px;
+}
+
+.cake-card img {
+  width: 100%;
+  height: auto;
+}
+
+.cake-card p {
+  text-align: center;
+  padding: 0.5rem;
+  font-size: 1rem;
+} */
+
+/* ------------------------------------ */
+
+.site-header {
+  text-align: center;
+  background: pink;
+  padding: 10px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.cake-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.cake-card {
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.cake-card img {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.order-btn {
+  background-color: #ff66a3;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.order-btn:hover {
+  background-color: #ff3385;
+}
+
+/* General page styling */
+header {
+  text-align: center;
+  background: #f8d7da;
+  padding: 15px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #721c24;
+}
+
+.cake-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.cake-card {
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.cake-card img {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.order-btn {
+  background-color: #e75480;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background 0.3s;
+}
+.order-btn:hover {
+  background-color: #d6336c;
+}
+
+/* Modal styling */
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+.modal-backdrop.open {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.modal {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  min-width: 300px;
+  max-width: 90%;
+  animation: popin 0.3s ease forwards;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.modal-actions {
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.confirm-btn {
+  background-color: #28a745;
+  color: white;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.confirm-btn:hover {
+  background-color: #218838;
+}
+
+.cancel-btn {
+  background-color: #dc3545;
+  color: white;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.cancel-btn:hover {
+  background-color: #c82333;
+}
+
+/* Animation */
+@keyframes popin {
+  from {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
 }
