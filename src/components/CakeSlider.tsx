@@ -195,8 +195,8 @@ const CakeSlider: React.FC = () => {
               </div>
 
               <div>
-                <button type="submit">Confirm</button>
-                <button type="button" onClick={closeModal}>Cancel</button>
+                <button type="submit" className="confirm-btn">Confirm</button>
+                <button type="button" className="cancel-btn" onClick={closeModal}>Cancel</button>
               </div>
             </form>
           </div>
