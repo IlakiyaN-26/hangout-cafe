@@ -48,6 +48,7 @@ const CakeSlider: React.FC = () => {
     const name = (form.customerName as HTMLInputElement).value;
     const mobile = (form.mobile as HTMLInputElement).value;
     const address = (form.address as HTMLTextAreaElement).value;
+    const cakeMsg = (form.cakeMsg as HTMLTextAreaElement ).value
     const date = (form.deliveryDate as HTMLInputElement).value;
     const time = (form.deliveryTime as HTMLInputElement).value;
 
@@ -74,6 +75,7 @@ const CakeSlider: React.FC = () => {
       name,
       mobile,
       address,
+      cakeMsg,
       date,
       time
     };
@@ -188,7 +190,7 @@ const CakeSlider: React.FC = () => {
               />
 
               <textarea name="address" placeholder="Address" required></textarea>
-
+              <textarea name="cakeMsg" placeholder="Cake Message" required></textarea>
               <div>
                 <input type="date" name="deliveryDate" required />
                 <input type="time" name="deliveryTime" required />
