@@ -5,8 +5,8 @@ const Contact: React.FC = () => {
     <section>
       <h2>Contact Us ☕</h2>
       <p>📞 Phone: +91 123456789</p>
-      <p>📧 Email: cafe@example.com</p>
-      <p>📍 Address: Vadasery, Nagercoil</p>
+      <p>📧 Email: hangoutcafe@example.com</p>
+      <p>📍 Address: Nagercoil</p>
     </section>
   );
 };
